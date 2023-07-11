@@ -20,3 +20,7 @@ console.log({nuevosJuegos, juegos});
 nuevosJuegos = juegos.unshift('F-zero');
 console.log({nuevosJuegos, juegos});
 
+// elimina al final
+let juegoBorrado = juegos.pop();
+console.log({juegoBorrado, juegos});
+
