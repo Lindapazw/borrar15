@@ -24,3 +24,5 @@ console.log('Nombre', personaje.nombre);
 console.log('Nombre', personaje['nombre']);
 console.log('Edad', personaje.edad);
 
+// anidados
+console.log('Coors:', personaje.coords.lng);
