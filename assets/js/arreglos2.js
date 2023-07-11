@@ -15,7 +15,6 @@ juegos.forEach( (elemento, indice, arr) => {
 let nuevosJuegos = juegos.push('F-zero');
 console.log({nuevosJuegos, juegos});
 
-
 // agrega al principio
 nuevosJuegos = juegos.unshift('F-zero');
 console.log({nuevosJuegos, juegos});
@@ -24,3 +23,7 @@ console.log({nuevosJuegos, juegos});
 let juegoBorrado = juegos.pop();
 console.log({juegoBorrado, juegos});
 
+// borra a partir de una posicion 
+let pos = 1;
+let juegosBorrados = juegos.splice(pos, 3);
+console.log({juegosBorrados, juegos});
