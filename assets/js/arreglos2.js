@@ -11,3 +11,7 @@ juegos.forEach( (elemento, indice, arr) => {
     console.log({ elemento, indice, arr });
 });
 
+// agrega al final
+let nuevosJuegos = juegos.push('F-zero');
+console.log({nuevosJuegos, juegos});
+
