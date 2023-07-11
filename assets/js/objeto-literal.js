@@ -42,4 +42,6 @@ console.log('Ultimo traje: ', personaje.trajes[personaje.trajes.length -1]);
 delete personaje.edad;
 console.log(personaje);
 
-
+// elementos pares
+const entriesPares = Object.entries(personaje);
+console.log(entriesPares);
