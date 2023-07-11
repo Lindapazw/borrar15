@@ -1,5 +1,5 @@
 // objetos
-let personaje = {
+const personaje = {
     nombre:'Linda',
     codeName: 'Iroman',
     vivo: false,
@@ -33,3 +33,13 @@ console.log('N° de trajes: ', personaje.trajes.length);
 // último traje
 console.log('Ultimo traje: ', personaje.trajes[2]);
 console.log('Ultimo traje: ', personaje.trajes[personaje.trajes.length -1]);
+
+
+
+// ********** Más detalles **********
+
+// eliminar atributos
+delete personaje.edad;
+console.log(personaje);
+
+
