@@ -26,3 +26,10 @@ console.log('Edad', personaje.edad);
 
 // anidados
 console.log('Coors:', personaje.coords.lng);
+
+// tarea = numero de trajes 
+console.log('N° de trajes: ', personaje.trajes.length);
+
+// último traje
+console.log('Ultimo traje: ', personaje.trajes[2]);
+console.log('Ultimo traje: ', personaje.trajes[personaje.trajes.length -1]);
