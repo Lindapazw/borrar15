@@ -15,3 +15,8 @@ juegos.forEach( (elemento, indice, arr) => {
 let nuevosJuegos = juegos.push('F-zero');
 console.log({nuevosJuegos, juegos});
 
+
+// agrega al principio
+nuevosJuegos = juegos.unshift('F-zero');
+console.log({nuevosJuegos, juegos});
+
