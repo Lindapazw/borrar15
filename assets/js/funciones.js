@@ -12,7 +12,12 @@ function saludar3(nombre){
     console.log('Hola ' + nombre);
 }
 
+const saludar4 = function(nombre){
+    console.log(arguments);
+};
+
 
 saludar();
 saludar2();
 saludar3('Linda 3');
+saludar4('Abuela',40,true, 'Argentina');
