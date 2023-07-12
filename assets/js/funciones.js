@@ -16,8 +16,12 @@ const saludar4 = function(nombre){
     console.log(arguments);
 };
 
+const saludarFlecha = () => {
+    console.log("Flecha");
+}
 
 saludar();
 saludar2();
 saludar3('Linda 3');
 saludar4('Abuela',40,true, 'Argentina');
+saludarFlecha();
