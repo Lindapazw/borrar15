@@ -1,9 +1,13 @@
 function saludar(){
     // dentro de la funcion hay metodos
     console.log("Hola Linda");
+    return  1;
+    // despues del return no se se ejecuta el codigo
+    console.log("No se ejecuta el codigo");
 }
 
 const saludar2 = function(){
+    // no son retornos de la función
     console.log("Hola Linda 2");
 }
 
@@ -20,7 +24,10 @@ const saludarFlecha = () => {
     console.log("Flecha");
 }
 
-saludar();
+// retornos de la funcion
+const retorno = saludar();
+console.log(retorno);
+
 saludar2();
 saludar3('Linda 3');
 saludar4('Abuela',40,true, 'Argentina');
