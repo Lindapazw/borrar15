@@ -32,3 +32,10 @@ saludar2();
 saludar3('Linda 3');
 saludar4('Abuela',40,true, 'Argentina');
 saludarFlecha();
+
+
+// tarea 
+const aleatoreo = () =>  Math.random();
+
+
+console.log(aleatoreo());
