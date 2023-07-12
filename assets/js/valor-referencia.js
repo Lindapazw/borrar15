@@ -22,3 +22,10 @@ let peter = {nombre: 'Peter'};
 let tony = cambiaNombre( peter );
 
 console.log({peter,tony});
+
+// arreglos
+const frutas = ['manzana', 'pera','banana'];
+const otrasFrutas = [...frutas];
+
+otrasFrutas.push('mango');
+console.table({frutas, otrasFrutas});
