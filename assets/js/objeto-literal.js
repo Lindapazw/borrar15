@@ -58,3 +58,5 @@ personaje.dinero = 10000000000;
 const propiedades = Object.getOwnPropertyNames(personaje);
 console.log(propiedades);
 
+const valores = Object.values(personaje);
+console.log(valores);
