@@ -6,3 +6,9 @@ a= 30;
 
 console.log({a, b});
 
+// los objetos lo pasamos por referencia
+let juan = { nombre:'juan'};
+let ana = juan;
+ana.nombre = 'Ana'
+
+console.log({juan,ana});
