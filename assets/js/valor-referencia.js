@@ -8,7 +8,17 @@ console.log({a, b});
 
 // los objetos lo pasamos por referencia
 let juan = { nombre:'juan'};
-let ana = juan;
+let ana = {...juan};
 ana.nombre = 'Ana'
 
 console.log({juan,ana});
+
+const cambiaNombre = ({...persona}) => {
+    persona.nombre = 'Tony';
+    return persona;
+}
+
+let peter = {nombre: 'Peter'};
+let tony = cambiaNombre( peter );
+
+console.log({peter,tony});
