@@ -53,3 +53,8 @@ console.log(personaje);
 // congela el objeto para no mutarlo
 Object.freeze(personaje);
 personaje.dinero = 10000000000;
+
+// listado de propiedades en forma de array
+const propiedades = Object.getOwnPropertyNames(personaje);
+console.log(propiedades);
+
