@@ -50,5 +50,6 @@ console.log(entriesPares);
 
 console.log(personaje);
 
-
-
+// congela el objeto para no mutarlo
+Object.freeze(personaje);
+personaje.dinero = 10000000000;
