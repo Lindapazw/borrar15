@@ -1,15 +1,12 @@
 function crearPersona (nombre, apellido) {
     return {
-        nombre: nombre,
-        apellido: apellido,
+        // nombre de propiedad es igual a nombre de la variable 
+        nombre,
+        apellido,
     }
 }
-
-const crearPersona2 = (nombre, apellido) =>({nombre,apellido});
-
-
-
-
-
 const persona = crearPersona('Linda', 'Paz'); 
 console.log(persona);
+
+// cambiamos a funcion de flecha
+const crearPersona2 = (nombre, apellido) =>({nombre,apellido});
