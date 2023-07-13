@@ -10,3 +10,10 @@ console.log(persona);
 
 // cambiamos a funcion de flecha
 const crearPersona2 = (nombre, apellido) =>({nombre,apellido});
+
+// segunda funcion
+function imprimeArgumentos (){
+    console.log(arguments);
+}
+
+imprimeArgumentos(10,true,false,'Hola');
