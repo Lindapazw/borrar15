@@ -11,3 +11,8 @@ for( let i = 0;  i < heroes.length;  i++ ) {
 for (let i in heroes) {
     console.log(heroes[i]);
 }
+
+// for of
+for (let i of heroes) {
+    console.log(i);
+}
